@@ -25,7 +25,7 @@ public class Assignment6 {
 			System.out.println("Choose your operation: ");
 			
 			chosenOp = input.next().charAt(0);
-			chosenOp = Character.toLowerCase(chosenOp);
+			chosenOp = Character.toLowerCase(chosenOp)
 			
 			if (chosenOp == 'a'){
 				System.out.println("First Number: ");
@@ -42,7 +42,7 @@ public class Assignment6 {
 				int num2 = input.nextInt();
 				answer = num1 - num2;
 				System.out.println("Result: " + answer);
-			}
+					}
 			else if (chosenOp == 'm'){
 				System.out.println("First Number: ");
 				int num1 = input.nextInt();
