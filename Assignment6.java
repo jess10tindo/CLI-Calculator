@@ -12,7 +12,7 @@ public class Assignment6 {
 		while (chosenOp != 'e'){
 			
 			Scanner input = new Scanner(System.in);
-			double answer = 0;
+			int answer = 0;
 			
 			System.out.println("Welcome to the CLI Calculator");
 			System.out.println("Operations:");
@@ -61,10 +61,10 @@ public class Assignment6 {
 				}
 				else{
 					double num2div = num2; // convert num2 to double in order to get decimal values for double
-					answer = num1 / num2div;
+					double answerDiv = num1 / num2div;
 					// display answer to division problem with 2 decimals		
 				    System.out.println("Result: "); 
-				    System.out.printf("%.2f", answer); 
+				    System.out.printf("%.2f", answerDiv); 
 				    System.out.println();
 				}
 			}	
