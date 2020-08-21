@@ -25,7 +25,7 @@ public class Assignment6 {
 			System.out.println("Choose your operation: ");
 			
 			chosenOp = input.next().charAt(0);
-			chosenOp = Character.toLowerCase(chosenOp)
+			chosenOp = Character.toLowerCase(chosenOp);
 			
 			if (chosenOp == 'a'){
 				System.out.println("First Number: ");
